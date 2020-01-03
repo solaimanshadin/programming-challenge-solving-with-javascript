@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Kangaroo Challage</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="challage-info">
+            <h1>Challange Context</h1>
+            <p>"একটি ক্যাঙ্গারু প্রতি সেকেন্ডে ৪ মিটার দুরত্বের লাফ দিতে পারে। অপর একটি ক্যাঙ্গারু প্রতি সেকেন্ডে ৫ মিটার দুরত্বের লাফ দিতে পারে। দ্বিতীয় ক্যাঙ্গারুটি প্রথম ক্যাঙ্গারুর দৌড় শুরুর ১৭ সেকেন্ড পর যদি লাফ দিতে শুরু করে তাহলে ১০০ সেকেন্ডের মধ্যে
+                উভয় ক্যাঙ্গারু কি আদৌ একই অবস্থানে আসবে? যদি আসে তাহলে তা রেস শুরু হওয়ার কত সেকেন্ড পরে এবং জিরো পয়েন্ট থেকে সেই অবস্থানের দুরত্ব কত মিটার?
+            </p>
+            <p> এমন একটি ফাংশন তৈরি করুন যেখানে উভয় ক্যাঙ্গারুর সর্বোচ্চ লাফের ক্ষমতা ও নির্ধারিত সময় গনিতে ইনপুট দিলে একই অবস্থানের সময় ও দুরত্ব আউটপুট হিসেবে প্রকাশ করবে। "
+            </p>
+        </div>
+
+
+        <form action="" class="solution-form">
+            <div class="inputs">
+                <div class="input-box">
+                    <label for="">প্রথম ক্যাঙ্গারুর সর্বোচ্চ লাফের ক্ষমতা</label>
+                    <input name="speedof_first_kangaroo" type="number" placeholder="মিটার">
+                </div>
+                <div class="input-box">
+                    <label for="">দ্বিতীয় ক্যাঙ্গারুর সর্বোচ্চ লাফের ক্ষমতা</label>
+                    <input name="speedof_second_kangaroo" type="number" placeholder="মিটার">
+                </div>
+                <div class="input-box">
+                    <label for="">নির্ধারিত সময়</label>
+                    <input name="estimated_time" type="number" placeholder="সেকেন্ড">
+                </div>
+            </div>
+
+            <button>ফলাফল জানুন</button>
+
+            <div class="display-solution" style="display: none;">
+            </div>
+
+        </form>
+
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>
